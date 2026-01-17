@@ -1,1 +1,37 @@
 # pig-emoji
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Big Emoji</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 50px;
+            font-family: Arial, sans-serif;
+        }
+
+        #pig {
+            font-size: 200px;   /* BIG EMOJI */
+            display: none;     /* hidden first */
+        }
+
+        button {
+            padding: 12px 25px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="showPig()">Show</button>
+
+    <div id="pig">🐷</div>
+
+    <script>
+        function showPig() {
+            document.getElementById("pig").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
